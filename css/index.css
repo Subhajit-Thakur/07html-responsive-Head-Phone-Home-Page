@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(111, 120, 120); */
+}
+
+/* ------------------- */
+/* --- nav-section --- */
+/* ------------------- */
+/* ------------------- */
+/* ---  --- */
+/* ------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+nav>img {
+    width: 8%;
+}
+
+nav>div:nth-child(2) {
+    margin-left: 93px;
+}
+
+nav h5 {
+    float: left;
+    padding: 35px;
+    font-size: 17px;
+}
+
+nav>img:nth-child(3) {
+    width: 20%;
+}
+
+.active-item {
+    font-weight: 900;
+    color: #ff3b00;
+    font-size: 20px;
+}
+
+/* ------------------- */
+/* -- intro-section -- */
+/* ------------------- */
+
+.intro-section {
+    display: flex;
+    margin-left: 74px;
+}
+
+.left-section h3 {
+    font-size: 39px;
+    margin-top: 50px;
+}
+
+.left-section h1 {
+    margin-top: 20px;
+    font-size: 73px;
+}
+
+
+.left-section h3 img {
+    width: 8%;
+}
+
+.left-section p {
+    width: 80%;
+    margin-top: 35px;
+    color: grey;
+}
+
+.left-section button {
+    margin-top: 50px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f5502a;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+
+.left-section button:nth-child(2) {
+    margin-left: 30px;
+}
+
+.sub-headlines {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.sub-headlines h5 {
+    font-size: 26px;
+    padding: 10px;
+}
+
+.headphone-div>img:nth-child(1) {
+    margin-top: 260px;
+    margin-left: -43px;
+    width: 10%;
+    /* margin-right: 376px; */
+    position: absolute;
+}
+
+.discount-content {
+    margin-top: 300px;
+    /* margin-right: 100px; */
+    /* font-size: 22px; */
+    margin-left: -18px;
+    position: absolute;
+}
+
+.discount-content h4 {
+    font-size: 13px;
+    margin-left: 16px;
+    color: white;
+
+}
+
+.right-section button {
+    margin-top: 82px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f5502a;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 135px;
+    margin-bottom: 40px;
+}
+
+.discount-content h1 {
+    font-size: 44px;
+    margin-top: -7px;
+    color: white;
+}
+
+.headphone-div>img:nth-child(3) {
+    width: 80%;
+    margin-top: 25px;
+    margin-right: 374px;
+}
